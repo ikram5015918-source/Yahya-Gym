@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yahya Gym (یحییٰ جِم) is the best gym in Garden Town, Lahore, offering separate facilities for ladies and gents, modern equipment, cardio machines, strength training, and a spacious workout area. Rated 4.3⭐ by 120+ members.">
+    <meta name="keywords" content="Yahya Gym, gym in Garden Town Lahore, best gym Lahore, ladies gym Lahore, gents gym Lahore, fitness center Garden Town, gym near me Lahore, یحییٰ جِم, workout gym Lahore">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Yahya Gym">
+    <meta name="geo.region" content="PK-PB">
+    <meta name="geo.placename" content="Lahore">
+    <meta name="geo.position" content="31.5204;74.3587">
+    <meta name="ICBM" content="31.5204, 74.3587">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Yahya Gym – Best Gym in Garden Town Lahore | Ladies & Gents">
+    <meta property="og:description" content="Top-rated gym in Garden Town, Lahore with separate ladies & gents facilities. Modern machines, cardio, strength training & prayer area. 4.3⭐ 120+ reviews.">
+    <meta property="og:url" content="https://yahya-gym.com">
+    <meta property="og:image" content="https://res.cloudinary.com/dll5lbtwq/image/upload/v1777047513/Screenshot_2026-04-24_090909_hvutbv.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_PK">
+    <meta property="og:site_name" content="Yahya Gym">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Yahya Gym – Best Gym in Garden Town Lahore">
+    <meta name="twitter:description" content="Top-rated gym in Garden Town, Lahore. Separate ladies & gents facilities. 4.3⭐">
+
+    <title>Yahya Gym – Best Gym in Garden Town Lahore | Ladies & Gents Fitness Center</title>
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://yahya-gym.com">
+
+    <style>
+        :root {
+            --bg: #0d0d0d;
+            --bg-secondary: #141414;
+            --bg-card: #1a1a1a;
+            --bg-card-hover: #1f1f1f;
+            --green: #00c853;
+            --green-dark: #009624;
+            --green-glow: #00e676;
+            --text: #f0f0f0;
+            --text-muted: #aaaaaa;
+            --text-light: #cccccc;
+            --border: #2a2a2a;
+            --border-light: #333333;
+            --danger: #ef5350;
+            --star: #ffb300;
+            --radius: 12px;
+            --radius-sm: 8px;
+            --radius-lg: 16px;
+            --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+            --shadow-green: 0 4px 20px rgba(0, 200, 83, 0.15);
+            --transition: 0.2s ease;
+            --max-width: 1100px;
+            --header-height: 64px;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: var(--header-height);
+            font-size: 16px;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            overflow-x: hidden;
+        }
+
+        /* ============ SKIP LINK ============ */
+        .skip-link {
+            position: absolute;
+            top: -100px;
+            left: 16px;
+            background: var(--green);
+            color: #000;
+            padding: 8px 16px;
+            border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+            z-index: 1000;
+            font-weight: 600;
+            text-decoration: none;
+            transition: top 0.3s;
+        }
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* ============ HEADER ============ */
+        .header {
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            background: rgba(13, 13, 13, 0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            height: var(--header-height);
+            display: flex;
+            align-items: center;
+            transition: background 0.3s;
+        }
+        .header-inner {
+            width: 100%;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            color: var(--text);
+            font-weight: 700;
+            font-size: 1.25rem;
+            letter-spacing: -0.3px;
+            white-space: nowrap;
+        }
+        .logo-icon {
+            width: 36px;
+            height: 36px;
+            background: var(--green);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            color: #000;
+            font-weight: 900;
+            flex-shrink: 0;
+        }
+        .logo-urdu {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-weight: 400;
+            letter-spacing: 0;
+        }
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        .nav-links a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 0.875rem;
+            font-weight: 500;
+            padding: 8px 14px;
+            border-radius: 20px;
+            transition: all var(--transition);
+            white-space: nowrap;
+        }
+        .nav-links a:hover,
+        .nav-links a:focus-visible {
+            background: var(--bg-card);
+            color: var(--green-glow);
+            outline: none;
+        }
+        .nav-cta {
+            background: var(--green) !important;
+            color: #000 !important;
+            font-weight: 700 !important;
+            padding: 9px 18px !important;
+            border-radius: 22px !important;
+        }
+        .nav-cta:hover,
+        .nav-cta:focus-visible {
+            background: var(--green-glow) !important;
+            color: #000 !important;
+        }
+
+        /* Hamburger */
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            z-index: 1001;
+            flex-direction: column;
+            gap: 5px;
+            width: 40px;
+            height: 32px;
+            justify-content: center;
+            align-items: center;
+        }
+        .hamburger span {
+            display: block;
+            width: 26px;
+            height: 2.5px;
+            background: var(--text);
+            border-radius: 2px;
+            transition: all 0.3s;
+        }
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+
+        /* Mobile Nav */
+        .mobile-nav {
+            display: none;
+            position: fixed;
+            top: var(--header-height);
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(13, 13, 13, 0.98);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            z-index: 998;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding-top: 32px;
+            gap: 8px;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.25s;
+        }
+        .mobile-nav.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+        .mobile-nav a {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            padding: 14px 28px;
+            border-radius: 28px;
+            transition: all var(--transition);
+            width: 80%;
+            text-align: center;
+        }
+        .mobile-nav a:hover,
+        .mobile-nav a:focus-visible {
+            background: var(--bg-card);
+            color: var(--green-glow);
+            outline: none;
+        }
+        .mobile-nav .nav-cta-mobile {
+            background: var(--green);
+            color: #000;
+            font-weight: 700;
+            margin-top: 8px;
+        }
+
+        /* ============ SECTIONS ============ */
+        .section {
+            padding: 60px 20px;
+        }
+        .section-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .section-label {
+            display: inline-block;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--green);
+            margin-bottom: 8px;
+        }
+        .section-title {
+            font-size: clamp(1.6rem, 4vw, 2.2rem);
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+        .section-subtitle {
+            color: var(--text-muted);
+            font-size: 1rem;
+            max-width: 600px;
+            margin-bottom: 32px;
+        }
+
+        /* ============ HERO ============ */
+        .hero {
+            padding: 40px 20px 60px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -40%;
+            left: -20%;
+            width: 140%;
+            height: 180%;
+            background: radial-gradient(ellipse at center, rgba(0, 200, 83, 0.06) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .hero-inner {
+            max-width: 700px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--star);
+            margin-bottom: 20px;
+        }
+        .hero-badge .stars {
+            color: var(--star);
+            letter-spacing: 1px;
+        }
+        .hero h1 {
+            font-size: clamp(2.2rem, 6vw, 3.2rem);
+            font-weight: 900;
+            letter-spacing: -1px;
+            line-height: 1.1;
+            margin-bottom: 6px;
+        }
+        .hero h1 .highlight {
+            color: var(--green);
+        }
+        .hero .urdu-name {
+            font-size: 1.5rem;
+            color: var(--text-muted);
+            font-weight: 400;
+            margin-bottom: 8px;
+            direction: rtl;
+            unicode-bidi: embed;
+        }
+        .hero-tagline {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-bottom: 24px;
+            font-weight: 500;
+        }
+        .hero-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 24px;
+            border-radius: 28px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: all var(--transition);
+            white-space: nowrap;
+        }
+        .btn-primary {
+            background: var(--green);
+            color: #000;
+            box-shadow: var(--shadow-green);
+        }
+        .btn-primary:hover,
+        .btn-primary:focus-visible {
+            background: var(--green-glow);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 28px rgba(0, 200, 83, 0.25);
+            outline: none;
+        }
+        .btn-outline {
+            background: transparent;
+            color: var(--text);
+            border: 2px solid var(--border-light);
+        }
+        .btn-outline:hover,
+        .btn-outline:focus-visible {
+            border-color: var(--green);
+            color: var(--green-glow);
+            outline: none;
+        }
+        .btn-whatsapp {
+            background: #25D366;
+            color: #fff;
+            box-shadow: 0 4px 16px rgba(37, 211, 102, 0.25);
+        }
+        .btn-whatsapp:hover,
+        .btn-whatsapp:focus-visible {
+            background: #20bd5a;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(37, 211, 102, 0.35);
+            outline: none;
+        }
+        .btn-call {
+            background: var(--bg-card);
+            color: var(--text);
+            border: 2px solid var(--border-light);
+        }
+        .btn-call:hover,
+        .btn-call:focus-visible {
+            border-color: #fff;
+            outline: none;
+        }
+
+        /* ============ ABOUT ============ */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        .about-text p {
+            color: var(--text-light);
+            margin-bottom: 12px;
+            font-size: 0.95rem;
+        }
+        .about-highlights {
+            list-style: none;
+            display: grid;
+            gap: 8px;
+            margin-top: 16px;
+        }
+        .about-highlights li {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+        .about-highlights li .check {
+            color: var(--green);
+            font-weight: 700;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        .about-card {
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            padding: 28px 24px;
+            border: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .about-stat {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .about-stat-num {
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--green);
+            line-height: 1;
+        }
+        .about-stat-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* ============ FACILITIES ============ */
+        .facilities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 14px;
+        }
+        .facility-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px 16px;
+            text-align: center;
+            transition: all var(--transition);
+        }
+        .facility-card:hover {
+            border-color: var(--green);
+            background: var(--bg-card-hover);
+            transform: translateY(-2px);
+        }
+        .facility-icon {
+            font-size: 2rem;
+            margin-bottom: 8px;
+            display: block;
+        }
+        .facility-name {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--text);
+        }
+
+        /* ============ PRICING ============ */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+        .pricing-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 28px 22px;
+            text-align: center;
+            transition: all var(--transition);
+            position: relative;
+        }
+        .pricing-card.featured {
+            border-color: var(--green);
+            box-shadow: var(--shadow-green);
+            background: #111;
+        }
+        .pricing-card.featured::before {
+            content: 'Popular';
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--green);
+            color: #000;
+            font-weight: 700;
+            font-size: 0.75rem;
+            padding: 4px 14px;
+            border-radius: 12px;
+            letter-spacing: 0.5px;
+        }
+        .pricing-name {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 4px;
+        }
+        .pricing-price {
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: var(--green);
+            margin: 8px 0;
+        }
+        .pricing-price span {
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: var(--text-muted);
+        }
+        .pricing-features {
+            list-style: none;
+            text-align: left;
+            margin: 16px 0 20px;
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+        .pricing-features li {
+            padding: 6px 0;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .pricing-features li::before {
+            content: '✓';
+            color: var(--green);
+            font-weight: 700;
+        }
+        .btn-price {
+            display: inline-block;
+            padding: 12px 28px;
+            border-radius: 24px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-decoration: none;
+            background: var(--green);
+            color: #000;
+            transition: all var(--transition);
+            cursor: pointer;
+            border: none;
+        }
+        .btn-price:hover,
+        .btn-price:focus-visible {
+            background: var(--green-glow);
+            outline: none;
+            transform: translateY(-1px);
+        }
+
+        /* ============ GALLERY ============ */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 12px;
+        }
+        .gallery-grid img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            border-radius: var(--radius);
+            background: var(--bg-card);
+            transition: transform var(--transition), box-shadow var(--transition);
+            cursor: pointer;
+        }
+        .gallery-grid img:hover {
+            transform: scale(1.03);
+            box-shadow: var(--shadow);
+        }
+        .gallery-grid img:first-child {
+            grid-column: span 2;
+            grid-row: span 2;
+            height: 100%;
+        }
+
+        /* ============ REVIEWS ============ */
+        .reviews-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+        }
+        .reviews-big-rating {
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--star);
+            line-height: 1;
+        }
+        .reviews-meta {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 16px;
+        }
+        .review-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+            transition: all var(--transition);
+        }
+        .review-card:hover {
+            border-color: var(--border-light);
+            background: var(--bg-card-hover);
+        }
+        .review-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+        .review-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--border-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: var(--text);
+            flex-shrink: 0;
+        }
+        .review-name {
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        .review-date {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+        .review-stars {
+            color: var(--star);
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+        .review-text {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            line-height: 1.5;
+        }
+
+        /* ============ LOCATION ============ */
+        .location-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            align-items: start;
+        }
+        .map-container {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            border: 1px solid var(--border);
+            aspect-ratio: 4/3;
+            background: var(--bg-card);
+        }
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .location-info {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .location-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 18px;
+        }
+        .location-card strong {
+            display: block;
+            margin-bottom: 4px;
+            color: var(--green);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .location-card p,
+        .location-card a {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            text-decoration: none;
+        }
+        .location-card a:hover {
+            color: var(--green-glow);
+        }
+
+        /* ============ SCHEDULE ============ */
+        .schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+        .schedule-table th,
+        .schedule-table td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        .schedule-table th {
+            color: var(--text-muted);
+            font-weight: 600;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .schedule-table .closed {
+            color: var(--danger);
+            font-weight: 600;
+        }
+        .schedule-table tr:hover td {
+            background: var(--bg-card);
+        }
+
+        /* ============ CONTACT ============ */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+        }
+        .contact-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--text);
+            transition: all var(--transition);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+        .contact-card:hover,
+        .contact-card:focus-visible {
+            border-color: var(--green);
+            transform: translateY(-2px);
+            outline: none;
+        }
+        .contact-icon {
+            font-size: 2rem;
+        }
+        .contact-label {
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+        .contact-value {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            word-break: break-all;
+        }
+
+        /* ============ FOOTER ============ */
+        .footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 20px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+        .footer-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            align-items: center;
+        }
+        .footer-links {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .footer-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color var(--transition);
+        }
+        .footer-links a:hover {
+            color: var(--green-glow);
+        }
+        .footer-social {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+        .footer-social a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            transition: all var(--transition);
+            font-size: 0.85rem;
+        }
+        .footer-social a:hover {
+            border-color: var(--green);
+            color: var(--green-glow);
+        }
+
+        /* ============ FLOATING WHATSAPP ============ */
+        .floating-wa {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 997;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: #25D366;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 6px 24px rgba(37, 211, 102, 0.4);
+            transition: all var(--transition);
+            text-decoration: none;
+        }
+        .floating-wa:hover,
+        .floating-wa:focus-visible {
+            transform: scale(1.1);
+            box-shadow: 0 10px 32px rgba(37, 211, 102, 0.5);
+            outline: none;
+        }
+        .floating-wa svg {
+            width: 28px;
+            height: 28px;
+            fill: #fff;
+        }
+
+        /* ============ RESPONSIVE ============ */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            .hamburger {
+                display: flex;
+            }
+            .mobile-nav {
+                display: flex;
+            }
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            .location-grid {
+                grid-template-columns: 1fr;
+            }
+            .gallery-grid img:first-child {
+                grid-column: span 1;
+                grid-row: span 1;
+                height: 240px;
+            }
+            .gallery-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 8px;
+            }
+            .gallery-grid img {
+                height: 180px;
+            }
+            .hero {
+                padding: 24px 16px 48px;
+            }
+            .section {
+                padding: 40px 16px;
+            }
+            .pricing-grid {
+                grid-template-columns: 1fr;
+                max-width: 400px;
+                margin: 0 auto;
+            }
+            .facilities-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 8px;
+            }
+            .facility-card {
+                padding: 14px 10px;
+            }
+            .facility-icon {
+                font-size: 1.5rem;
+            }
+            .facility-name {
+                font-size: 0.75rem;
+            }
+            .schedule-table th,
+            .schedule-table td {
+                padding: 10px 8px;
+                font-size: 0.8rem;
+            }
+            .floating-wa {
+                bottom: 16px;
+                right: 16px;
+                width: 48px;
+                height: 48px;
+            }
+            .floating-wa svg {
+                width: 24px;
+                height: 24px;
+            }
+        }
+        @media (max-width: 400px) {
+            .facilities-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .hero-buttons {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .btn {
+                justify-content: center;
+                text-align: center;
+            }
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        @media (min-width: 769px) {
+            .mobile-nav {
+                display: none !important;
+            }
+            .mobile-nav.active {
+                display: none !important;
+            }
+        }
+
+        /* ============ PRINT ============ */
+        @media print {
+            .header,
+            .floating-wa,
+            .hamburger,
+            .mobile-nav,
+            .hero-buttons,
+            .btn {
+                display: none !important;
+            }
+            body {
+                background: #fff;
+                color: #000;
+            }
+            .section {
+                padding: 20px 0;
+            }
+        }
+    </style>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Yahya Gym",
+            "alternateName": "یحییٰ جِم",
+            "description": "Best Gym for Ladies & Gents in Garden Town Lahore. Modern equipment, cardio machines, strength training, separate facilities, and prayer area.",
+            "image": "https://res.cloudinary.com/dll5lbtwq/image/upload/v1777047513/Screenshot_2026-04-24_090909_hvutbv.png",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Raja Market, 103 Masood Farooqi Rd, Abu Bakar Block",
+                "addressLocality": "Garden Town",
+                "addressRegion": "Punjab",
+                "addressCountry": "PK"
+            },
+            "telephone": "+923264664010",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.3",
+                "reviewCount": "120"
+            },
+            "openingHoursSpecification": [
+                { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "05:00", "closes": "23:00" },
+                { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "08:00", "closes": "00:00" },
+                { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "08:00", "closes": "23:00" },
+                { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "08:00", "closes": "23:30" },
+                { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "08:00", "closes": "23:50" },
+                { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "23:50" }
+            ],
+            "priceRange": "Contact for pricing",
+            "url": "https://yahya-gym.com",
+            "sameAs": [
+                "https://www.facebook.com/profile.php?id=100085392706870"
+            ]
+        }
+    </script>
+</head>
+<body>
+
+    <!-- Skip Link -->
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="header-inner">
+            <a href="#" class="logo" aria-label="Yahya Gym Home">
+                <span class="logo-icon">💪</span>
+                <span>
+                    Yahya Gym
+                    <br><span class="logo-urdu">یحییٰ جِم</span>
+                </span>
+            </a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#facilities">Facilities</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#contact" class="nav-cta">Join Now</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" id="hamburger">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+        <a href="#about">About</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#location">Location</a>
+        <a href="#contact" class="nav-cta-mobile">Join Now</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-inner">
+                <div class="hero-badge">
+                    <span class="stars">★★★★☆</span> 4.3 · 120+ Reviews
+                </div>
+                <h1 id="hero-heading">Best Gym in <span class="highlight">Garden Town</span> Lahore</h1>
+                <p class="urdu-name">یحییٰ جِم</p>
+                <p class="hero-tagline">Separate Facilities for Ladies &amp; Gents · Modern Equipment · Expert Trainers</p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/923264664010?text=Assalam-o-Alaikum!%20I%20want%20to%20join%20Yahya%20Gym." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        WhatsApp
+                    </a>
+                    <a href="tel:+923264664010" class="btn btn-call" aria-label="Call Yahya Gym">
+                        📞 Call Now
+                    </a>
+                    <a href="#contact" class="btn btn-primary">Join Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about" aria-labelledby="about-heading">
+            <div class="section-inner">
+                <span class="section-label">About Us</span>
+                <h2 class="section-title" id="about-heading">Welcome to Yahya Gym</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p><strong>Yahya Gym (یحییٰ جِم)</strong> is a premium fitness center located in the heart of <strong>Garden Town, Lahore</strong>. We provide a clean, spacious, and motivating environment for both <strong>ladies and gents</strong> with completely separate facilities.</p>
+                        <p>Our gym is equipped with modern cardio machines, strength training equipment, and free weights to help you achieve your fitness goals. Our friendly and experienced trainers are always available to guide you.</p>
+                        <ul class="about-highlights">
+                            <li><span class="check">✓</span> Separate timing &amp; area for ladies</li>
+                            <li><span class="check">✓</span> Modern imported machines</li>
+                            <li><span class="check">✓</span> Clean &amp; hygienic environment</li>
+                            <li><span class="check">✓</span> Prayer area with Jamaat system</li>
+                            <li><span class="check">✓</span> Lockers &amp; changing rooms</li>
+                        </ul>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-stat">
+                            <span class="about-stat-num">4.3</span>
+                            <span class="about-stat-label">⭐ Google Rating<br>120+ Reviews</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="about-stat-num">6</span>
+                            <span class="about-stat-label">Days a Week<br>Open for You</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="about-stat-num">2</span>
+                            <span class="about-stat-label">Separate Sections<br>Ladies &amp; Gents</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facilities Section -->
+        <section class="section" id="facilities" aria-labelledby="facilities-heading" style="background: var(--bg-secondary);">
+            <div class="section-inner">
+                <span class="section-label">Facilities</span>
+                <h2 class="section-title" id="facilities-heading">What We Offer</h2>
+                <p class="section-subtitle">Everything you need for a complete workout experience under one roof.</p>
+                <div class="facilities-grid">
+                    <div class="facility-card">
+                        <span class="facility-icon">🏃</span>
+                        <span class="facility-name">Cardio Machines</span>
+                    </div>
+                    <div class="facility-card">
+                        <span class="facility-icon">🏋️</span>
+                        <span class="facility-name">Strength Training</span>
+                    </div>
+                    <div class="facility-card">
+                        <span class="facility-icon">📐</span>
+                        <span class="facility-name">Spacious Area</span>
+                    </div>
+                    <div class="facility-card">
+                        <span class="facility-icon">🔐</span>
+                        <span class="facility-name">Lockers</span>
+                    </div>
+                    <div class="facility-card">
+                        <span class="facility-icon">🚿</span>
+                        <span class="facility-name">Changing Rooms</span>
+                    </div>
+                    <div class="facility-card">
+                        <span class="facility-icon">🕌</span>
+                        <span class="facility-name">Prayer (Jamaat)</span>
+                    </div>
+                    <div class="facility-card">
+                        <span class="facility-icon">👩</span>
+                        <span class="facility-name">Ladies Section</span>
+                    </div>
+                    <div class="facility-card">
+                        <span class="facility-icon">👨</span>
+                        <span class="facility-name">Gents Section</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="section" id="pricing" aria-labelledby="pricing-heading">
+            <div class="section-inner">
+                <span class="section-label">Membership</span>
+                <h2 class="section-title" id="pricing-heading">Choose Your Plan</h2>
+                <p class="section-subtitle">Affordable membership plans designed for every fitness level. Contact us for current pricing.</p>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <p class="pricing-name">Basic</p>
+                        <p class="pricing-price">Contact<span> /month</span></p>
+                        <ul class="pricing-features">
+                            <li>Access to cardio area</li>
+                            <li>Basic strength equipment</li>
+                            <li>Locker facility</li>
+                            <li>General timing access</li>
+                        </ul>
+                        <a href="https://wa.me/923264664010?text=I'm%20interested%20in%20the%20Basic%20plan" class="btn-price" target="_blank" rel="noopener">Contact for Price</a>
+                    </div>
+                    <div class="pricing-card featured">
+                        <p class="pricing-name">Standard</p>
+                        <p class="pricing-price">Contact<span> /month</span></p>
+                        <ul class="pricing-features">
+                            <li>Full gym access</li>
+                            <li>All strength equipment</li>
+                            <li>Trainer guidance</li>
+                            <li>Locker &amp; changing room</li>
+                            <li>Extended hours</li>
+                        </ul>
+                        <a href="https://wa.me/923264664010?text=I'm%20interested%20in%20the%20Standard%20plan" class="btn-price" target="_blank" rel="noopener">Contact for Price</a>
+                    </div>
+                    <div class="pricing-card">
+                        <p class="pricing-name">Premium</p>
+                        <p class="pricing-price">Contact<span> /month</span></p>
+                        <ul class="pricing-features">
+                            <li>All Standard features</li>
+                            <li>Personal trainer sessions</li>
+                            <li>Custom diet plan</li>
+                            <li>Priority access</li>
+                            <li>Guest passes</li>
+                        </ul>
+                        <a href="https://wa.me/923264664010?text=I'm%20interested%20in%20the%20Premium%20plan" class="btn-price" target="_blank" rel="noopener">Contact for Price</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="section" id="gallery" aria-labelledby="gallery-heading" style="background: var(--bg-secondary);">
+            <div class="section-inner">
+                <span class="section-label">Gallery</span>
+                <h2 class="section-title" id="gallery-heading">Inside Yahya Gym</h2>
+                <p class="section-subtitle">Take a look at our clean, spacious, and well-equipped facility.</p>
+                <div class="gallery-grid">
+                    <img src="https://res.cloudinary.com/dll5lbtwq/image/upload/v1777047513/Screenshot_2026-04-24_090909_hvutbv.png"
+                    alt="Yahya Gym interior view - spacious workout area"
+                    loading="lazy"
+                    width="400" height="300"
+                    onerror="this.style.background='#1a1a1a'; this.style.minHeight='200px';">
+                    <img src="https://res.cloudinary.com/dll5lbtwq/image/upload/v1/Screenshot_2026-04-24_090518_ywizmj.png"
+                    alt="Yahya Gym equipment area"
+                    loading="lazy"
+                    width="400" height="300"
+                    onerror="this.style.background='#1a1a1a'; this.style.minHeight='200px';">
+                    <img src="https://res.cloudinary.com/dll5lbtwq/image/upload/v1/Screenshot_2026-04-24_090708_gqtskf.png"
+                    alt="Yahya Gym strength training section"
+                    loading="lazy"
+                    width="400" height="300"
+                    onerror="this.style.background='#1a1a1a'; this.style.minHeight='200px';">
+                    <img src="https://res.cloudinary.com/dll5lbtwq/image/upload/v1/Screenshot_2026-04-24_090601_qfqxvk.png"
+                    alt="Yahya Gym cardio machines"
+                    loading="lazy"
+                    width="400" height="300"
+                    onerror="this.style.background='#1a1a1a'; this.style.minHeight='200px';">
+                    <img src="https://res.cloudinary.com/dll5lbtwq/image/upload/v1/Screenshot_2026-04-24_090534_iqffza.png"
+                    alt="Yahya Gym facility overview"
+                    loading="lazy"
+                    width="400" height="300"
+                    onerror="this.style.background='#1a1a1a'; this.style.minHeight='200px';">
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section class="section" id="reviews" aria-labelledby="reviews-heading">
+            <div class="section-inner">
+                <span class="section-label">Testimonials</span>
+                <h2 class="section-title" id="reviews-heading">What Our Members Say</h2>
+                <div class="reviews-header">
+                    <span class="reviews-big-rating">4.3</span>
+                    <div class="reviews-meta">
+                        <span style="color:var(--star); font-size:1.2rem;">★★★★☆</span><br>
+                        Based on <strong>120+ Google Reviews</strong>
+                    </div>
+                </div>
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <span class="review-avatar">AK</span>
+                            <div>
+                                <p class="review-name">Ahmed Khan</p>
+                                <p class="review-date">2 months ago</p>
+                            </div>
+                        </div>
+                        <p class="review-stars">★★★★★</p>
+                        <p class="review-text">Best gym in Garden Town! The separate ladies &amp; gents sections are very well maintained. Equipment is modern and trainers are super helpful.</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <span class="review-avatar">FS</span>
+                            <div>
+                                <p class="review-name">Fatima S.</p>
+                                <p class="review-date">1 month ago</p>
+                            </div>
+                        </div>
+                        <p class="review-stars">★★★★☆</p>
+                        <p class="review-text">As a woman, I feel very comfortable here. The ladies' section is private and well-equipped. Highly recommend for female fitness enthusiasts!</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <span class="review-avatar">MR</span>
+                            <div>
+                                <p class="review-name">Muhammad R.</p>
+                                <p class="review-date">3 weeks ago</p>
+                            </div>
+                        </div>
+                        <p class="review-stars">★★★★★</p>
+                        <p class="review-text">Clean environment, great machines, and the prayer area with Jamaat is a huge plus. Perfect for anyone serious about fitness.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location Section -->
+        <section class="section" id="location" aria-labelledby="location-heading" style="background: var(--bg-secondary);">
+            <div class="section-inner">
+                <span class="section-label">Find Us</span>
+                <h2 class="section-title" id="location-heading">Location &amp; Timings</h2>
+                <div class="location-grid">
+                    <div class="map-container">
+                        <iframe
+                        src="https://www.google.com/maps?q=Yahya+Gym+Raja+Market+Masood+Farooqi+Rd+Garden+Town+Lahore&output=embed"
+                        title="Yahya Gym Location on Google Maps"
+                        loading="lazy"
+                        allowfullscreen
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="location-info">
+                    <div class="location-card">
+                        <strong>📍 Address</strong>
+                        <p>Raja Market, 103 Masood Farooqi Rd,<br>Abu Bakar Block Garden Town,<br>Lahore, Pakistan</p>
+                        <a href="https://maps.app.goo.gl/qSrSBJrHEBuVkbsD6" target="_blank" rel="noopener noreferrer" style="color:var(--green); font-weight:600;">Open in Google Maps →</a>
+                    </div>
+                    <div class="location-card">
+                        <strong>🕒 Working Hours</strong>
+                        <table class="schedule-table">
+                            <tbody>
+                                <tr><td>Monday</td><td>5 AM – 11 PM</td></tr>
+                                <tr><td>Tuesday</td><td>8 AM – 12 AM</td></tr>
+                                <tr><td>Wednesday</td><td>8 AM – 11 PM</td></tr>
+                                <tr><td>Thursday</td><td>8 AM – 11:30 PM</td></tr>
+                                <tr><td>Friday</td><td>8 AM – 11:50 PM</td></tr>
+                                <tr><td>Saturday</td><td>8 AM – 11:50 PM</td></tr>
+                                <tr><td>Sunday</td><td class="closed">Closed</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+        <div class="section-inner">
+            <span class="section-label">Get In Touch</span>
+            <h2 class="section-title" id="contact-heading">Contact Yahya Gym</h2>
+            <p class="section-subtitle">Ready to start your fitness journey? Reach out to us today.</p>
+            <div class="contact-grid">
+                <a href="tel:+923264664010" class="contact-card" aria-label="Call Yahya Gym">
+                    <span class="contact-icon">📞</span>
+                    <span class="contact-label">Call Us</span>
+                    <span class="contact-value">+92 326 4664010</span>
+                </a>
+                <a href="https://wa.me/923264664010?text=Assalam-o-Alaikum!%20I%20want%20to%20know%20about%20Yahya%20Gym%20membership." class="contact-card" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Yahya Gym">
+                    <span class="contact-icon">💬</span>
+                    <span class="contact-label">WhatsApp</span>
+                    <span class="contact-value">Chat with us</span>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100085392706870" class="contact-card" target="_blank" rel="noopener noreferrer" aria-label="Visit Yahya Gym Facebook page">
+                    <span class="contact-icon">📘</span>
+                    <span class="contact-label">Facebook</span>
+                    <span class="contact-value">Follow us</span>
+                </a>
+                <a href="https://maps.app.goo.gl/qSrSBJrHEBuVkbsD6" class="contact-card" target="_blank" rel="noopener noreferrer" aria-label="Get directions to Yahya Gym">
+                    <span class="contact-icon">📍</span>
+                    <span class="contact-label">Directions</span>
+                    <span class="contact-value">Google Maps</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+        <p><strong>Yahya Gym</strong> (یحییٰ جِم) — Best Gym for Ladies &amp; Gents in Garden Town, Lahore</p>
+        <p>Raja Market, 103 Masood Farooqi Rd, Abu Bakar Block Garden Town, Lahore</p>
+        <div class="footer-links">
+            <a href="tel:+923264664010">📞 +92 326 4664010</a>
+            <a href="https://wa.me/923264664010" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+            <a href="https://maps.app.goo.gl/qSrSBJrHEBuVkbsD6" target="_blank" rel="noopener noreferrer">📍 Directions</a>
+        </div>
+        <div class="footer-social">
+            <a href="https://www.facebook.com/profile.php?id=100085392706870" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </div>
+        <p style="font-size:0.75rem; color:#666;">&copy; 2026 Yahya Gym. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/923264664010?text=Assalam-o-Alaikum!%20I%20want%20to%20join%20Yahya%20Gym." class="floating-wa" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- Vanilla JavaScript -->
+<script>
+    (function() {
+        // Hamburger menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const mobileNav = document.getElementById('mobileNav');
+        let menuOpen = false;
+
+        function closeMenu() {
+            menuOpen = false;
+            hamburger.classList.remove('active');
+            hamburger.setAttribute('aria-expanded', 'false');
+            mobileNav.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        function openMenu() {
+            menuOpen = true;
+            hamburger.classList.add('active');
+            hamburger.setAttribute('aria-expanded', 'true');
+            mobileNav.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        hamburger.addEventListener('click', function() {
+            if (menuOpen) {
+                closeMenu();
+            } else {
+                openMenu();
+            }
+        });
+
+        // Close mobile nav when a link is clicked
+        const mobileLinks = mobileNav.querySelectorAll('a');
+        mobileLinks.forEach(function(link) {
+            link.addEventListener('click', function() {
+                closeMenu();
+            });
+        });
+
+        // Close mobile nav on Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && menuOpen) {
+                closeMenu();
+                hamburger.focus();
+            }
+        });
+
+        // Close mobile nav when clicking outside
+        document.addEventListener('click', function(e) {
+            if (menuOpen && !mobileNav.contains(e.target) && !hamburger.contains(e.target)) {
+                closeMenu();
+            }
+        });
+
+        // Resize handler - close menu on desktop
+        window.addEventListener('resize', function() {
+            if (window.innerWidth >= 769 && menuOpen) {
+                closeMenu();
+            }
+        });
+
+        // Lazy load images with Intersection Observer (enhanced beyond native lazy)
+        if ('IntersectionObserver' in window) {
+            const imgObserver = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        if (img.dataset.src) {
+                            img.src = img.dataset.src;
+                            img.removeAttribute('data-src');
+                        }
+                        imgObserver.unobserve(img);
+                    }
+                });
+            }, {
+                rootMargin: '200px',
+                threshold: 0.01
+            });
+
+            document.querySelectorAll('img[loading="lazy"]').forEach(function(img) {
+                imgObserver.observe(img);
+            });
+        }
+
+        // Smooth scroll for all anchor links (fallback for older browsers)
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+            anchor.addEventListener('click', function(e) {
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                const target = document.querySelector(targetId);
+                if (target) {
+                    e.preventDefault();
+                    const headerOffset = parseInt(getComputedStyle(document.documentElement)
+                        .getPropertyValue('--header-height')) || 64;
+                    const elementPosition = target.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset -
+                        10;
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Add subtle scroll-based header shadow
+        const header = document.querySelector('.header');
+        let scrollTicking = false;
+        window.addEventListener('scroll', function() {
+            if (!scrollTicking) {
+                requestAnimationFrame(function() {
+                    if (window.scrollY > 10) {
+                        header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.5)';
+                    } else {
+                        header.style.boxShadow = 'none';
+                    }
+                    scrollTicking = false;
+                });
+                scrollTicking = true;
+            }
+        }, { passive: true });
+
+        // Handle image load errors gracefully
+        document.querySelectorAll('img').forEach(function(img) {
+            img.addEventListener('error', function() {
+                this.style.background = '#1a1a1a';
+                this.style.minHeight = '180px';
+                this.style.display = 'flex';
+                this.style.alignItems = 'center';
+                this.style.justifyContent = 'center';
+                this.alt = 'Image loading...';
+            });
+        });
+
+        console.log('%c💪 Yahya Gym %cWebsite Ready',
+            'font-size:1.2em; font-weight:bold; color:#00c853;',
+            'color:#aaa;');
+        console.log('%cPerformance-optimized • No frameworks • Mobile-first',
+            'font-size:0.8em; color:#666;');
+    })();
+</script>
+</body>
+</html>
